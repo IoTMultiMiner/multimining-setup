@@ -28,3 +28,4 @@ This repository documents my multi-mining setup using LoRaWAN gateways and IoT s
 
 ## Contact
 Feel free to reach out: [badrudinomago@gmail.com](mailto:badrudinomago@gmail.com)
+![My Mining Setup](mining_setup.jpg)
