@@ -19,6 +19,7 @@ This repository documents my multi-mining setup using LoRaWAN gateways and IoT s
 ## Files
 - **`Dockerfile.xardian`**: Dockerfile for running Xardian CLI (XProtocol) on ARM64 devices. Requires `runner.linux.arm64` from [Xardian releases](https://github.com/xprotocol-org/xardian/releases).
 - **`global_conf.json`**: Sample Packet Forwarder configuration for Crankk OS, tailored for EU868 with Crankk servers (`csap.crankk.io` and `mqtt.crankk.org`).
+- **`helium_raspberry.sh`**: Bash script to run Helium Gateway miner on Raspberry Pi using Docker.
 
 ## Achievements
 - Successfully mined HNT and CRKK simultaneously by re-flashing gateways with Crankk OS.
