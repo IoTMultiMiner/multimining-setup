@@ -1,0 +1,8 @@
+FROM arm64v8/ubuntu:20.04
+WORKDIR /app
+COPY ./runner.linux.arm64 /app/xardian
+RUN chmod +x /app/xardian
+VOLUME /app/data
+ENV RPC_URL="wss://rpc.xprotocol.org" \
+    WALLET_PRIVATE_KEY="your_private_key_here"
+CMD ["./xardian", "--rpc", "$RPC_URL", "--wallet", "$WALLET_PRIVATE_KEY"]
